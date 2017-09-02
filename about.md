@@ -1,87 +1,33 @@
 ---
 layout: page
-title: About Pixyll
+title: About Me
 permalink: /about/
 tags: about
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+![Adam Haafiz](../images/me.jpg){:width="200px"}
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+My name is **Adam Haafiz**. I'm a mobile app developer at [Apptivity Lab](https://www.apptivitylab.com), a company that specialises in delivering the most delightful iOS and Android applications. I also dabble in other fields such as web development, security, networking and bots.
 
-Thanks to the following:
+Listening to music is an essential part of my workflow, therefore I'm always resisting the urge to airdrum along to my favourite songs. On my way to work, I usually listen to these awesome podcasts:
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+* [Under the Radar](https://www.relay.fm/radar) - great show on indie iOS development
+* [Security Now](https://twit.tv/shows/security-now) - where I learned everything I know about security
+* [Cortex](https://www.relay.fm/cortex) - huge fan of CGP Grey
+* [Mobile Couch](http://mobilecouch.co/) - lots of interesting discussions on mobile development
+* [The raywenderlich.com Podcast](https://www.raywenderlich.com/rwpodcast) - 20 minute sessions covering various sectors of programming
 
-List of contributors:
+## Projects
+Some of the projects I've been involved with:
 
-- Aaron S. Hawley
-- Adam Menges
-- Alex Claman
-- Alex Johnson
-- Alex Touchet
-- Allister Antosik
-- Amin Bandali
-- Anders Nissen
-- Andrea Margiovanni
-- Andrzej Ośmiałowski
-- Anuj More
-- Arvind Chembarpu
-- Assaf Gelber
-- Barry vd. Heuvel
-- Bartek Krzemień
-- Bartek Krzemień
-- Bennett Rogers
-- Brian Gaid
-- Brian Hurst
-- Chee Yeo
-- Cody Chan
-- Cristian Henrique
-- David Ernst
-- Donate Altenburger
-- Fernando Mantoan
-- Gurchet Rai
-- Harish Narayanan
-- Jehan Tremback
-- Jiaxi Gu (Isaac)
-- John Otander
-- Jordan Danielewski
-- Josh Buxton
-- Kirill Kulikov
-- Kyle Maxwell
-- Marta Sztybor
-- Martin Wagner
-- Matthew Graybosch
-- Maxim Tsoy
-- Mete Balci
-- Mike Lloyd
-- Mikhail Grachev
-- mindwind
-- Nick Rakochy
-- Nikolay Georgiev
-- Oliver Hamlet
-- Onur (e0i)
-- Praveer Gupta
-- Rassol (Karmeye)
-- Ricky Han
-- Roberto Pesando
-- Ryan Jacobs
-- Scott Martin
-- Selim Eren Bekçe
-- Shruti Rijhwani
-- Steef Hegeman
-- Tehmasp Chaudhri
-- Thomas Galvin
-- Timothy Gu
-- Tom Kraak
-- Vishnu Ks
-- Vladislav Arbatov
-- Yaroslav Yadrishnikov
-- Yee Chie Tu
-- Yeou Chien
+* [myc!](https://itunes.apple.com/my/app/myc/id1171061589?mt=8) - helping the youths of today find jobs & scholarships
+* [SpaceDex](https://2016.spaceappschallenge.org/challenges/earth/geotagging-space-and-aviation/projects/spacedex) - hacked together for the NASA Space Apps Challenge 2016
+* [BeanThere](https://itunes.apple.com/my/app/beanthere/id1081914113?mt=8) - helping you find the closest place for a caffeine fix
+* [Centrestage](http://www.centrestage.my) - custom WordPress theme built from scratch
+* ss-haze-bot - internal Slack bot that kept users up to date on latest air pollutant index info
+
+## Misc
+Outside of work, thoughts of our technology-driven future excite me (self-driving cars, anyone?). At home, I own a small form factor desktop that dual boots Windows (for gaming) and macOS (for everything else).
+
+## Contact
+You can find me on [LinkedIn](https://www.linkedin.com/in/adam-haafiz-a3481011a/) or email me at [adam@adamhaafiz.com](mailto:adam@adamhaafiz.com).
