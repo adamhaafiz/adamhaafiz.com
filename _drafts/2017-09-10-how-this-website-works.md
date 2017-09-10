@@ -12,7 +12,7 @@ The fact that you're reading this now means that I've set up this website correc
 
 All the content that you see on this website is hosted on [GitHub Pages](https://pages.github.com). The posts and pages are written in [Markdown](https://daringfireball.net/projects/markdown/), which is then transformed into a static website through [Jekyll](https://jekyllrb.com). 
 
-Jekyll is basically a content management system without a database. Think of it as a super lightweight version of WordPress where all your posts and pages are Markdown & HTML files. You don't go through the `wp-admin` UI to create new posts, instead you just open up whatever text editor you have and start writing it there. 
+Jekyll is basically a content management system without a database. Think of it as a super lightweight version of WordPress where all your posts and pages are Markdown & HTML files. You don't go through the `wp-admin` UI to create new posts, instead you write your posts in a text editor of your choice.
 
 GitHub Pages offers hosting for static websites entirely for free (thank you GitHub!). So when you combine this with a static website generator like Jekyll, it means that you can have blog-like websites hosted on GitHub Pages without spending a cent!
 
@@ -28,7 +28,7 @@ The next step is to point your custom domain to your GitHub Pages website. This 
 
 ### The Domain Decision
 
-A domain such as `adamhaafiz.com` is called an apex domain (also called a naked or root domain).[^1] An address like `www.adamhaafiz.com` uses the `www` subdomain, just like how `blog.adamhaafiz.com` uses the `blog` subdomain. Writing this down made me feel dumb about not knowing that `www` was considered a subdomain too.. but hey, I'm glad I learnt about it!
+A domain such as `adamhaafiz.com` is called an apex domain (also called a naked or root domain).[^1] An address like `www.adamhaafiz.com` uses the `www` subdomain, just like how `blog.adamhaafiz.com` uses the `blog` subdomain. I honestly had no idea that `www` was considered a subdomain too.. but hey, I'm glad I know about it now!
 
 With that new information, I decided that I wanted to use `adamhaafiz.com`,[^2] with all requests going to `www.adamhaafiz.com` subdomain redirecting to the apex domain instead.
 
@@ -41,7 +41,7 @@ At this stage, there were two things that I wanted to achieve:
 
 In order for these two things to happen, we're gonna have to play around with DNS. **D**omain **N**ame **S**ervers are basically the address books of the internet. When you visit a URL such as `www.google.com`, your browser asks the DNS server (yes, [RAS syndrome](https://en.wikipedia.org/wiki/RAS_syndrome)) to resolve the URL into an IP address.
 
-### Pointing in the Right Direction
+### Pointing to GitHub Pages
 
 Most domain registrars allow you to modify the DNS records for the domains that your purchased through them. This way, we can add the necessary DNS records for what we want to achieve. For this case, what we need specifically is a `CNAME` record. 
 
@@ -53,13 +53,13 @@ Unfortunately, my domain registrar Namecheap does not support `ALIAS` records. S
 
 ### Redirecting Traffic
 
-Setting up the redirect from the `www` subdomain to the apex domain is simply a matter of addding a new CNAME record.  Try it out now: [www.adamhaafiz.com](http://www.adamhaafiz.com). You'll notice that your browser gets automatically redirected to the apex domain.
+Setting up the redirect from the `www` subdomain to the apex domain is simply a matter of addding a new `CNAME` record.  Try it out now: [www.adamhaafiz.com](http://www.adamhaafiz.com). You'll notice that your browser gets automatically redirected to the apex domain.
 
 #### "Hey, didn't you say earlier that CNAME records don't work with apex domains?"
 
-You can add CNAME records to point a subdomain **to** any other URL (including apex domains), but you can't use them to point **from** an apex domain.
+You can add `CNAME` records to point a subdomain **to** any other URL (including apex domains), but you can't use them to point **from** an apex domain.
 
-Before we wrap up, remember that earlier step about adding a custom domain to your GitHub pages wesite? This step actually generates a [CNAME file](https://github.com/adamhaafiz/adamhaafiz.github.io/blob/master/CNAME) and commits it into your repository. I haven't been able to find out what exactly this CNAME file does, but I *think* GitHub uses it to know which domain to point to when someone visits the GitHUb Pages URL directly.
+Before we wrap up, remember that earlier step about adding a custom domain to your GitHub Pages wesite? This step actually generates a [CNAME file](https://github.com/adamhaafiz/adamhaafiz.github.io/blob/master/CNAME) and commits it into your repository. I asked GitHub about this and they said they use this file to know to point to the custom domain instead of the default GitHub Pages URL.
 
 ## Next Step: HTTPS
 
@@ -69,5 +69,5 @@ I hope this post was helpful! If you've got any questions or would like to get i
 
 ---
 
-[^1]: I'd love to know the _proper_ technical term for this. Please [get in touch with me](/contact/) if you know! 
+[^1]: I'd love to know the _proper_ technical term for this. Please [get in touch with me](/contact/) if you do! 
 [^2]: Yes, I'm aware of some of the [critcism surrounding this choice](http://www.yes-www.org/why-use-www/).
