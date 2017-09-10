@@ -63,9 +63,9 @@ Before we wrap up, remember that earlier step about adding a custom domain to yo
 
 ## Next Step: HTTPS
 
-The security conscious amongst you may have noticed that this website does not support HTTPs yet. Fret not! By the time you visit this website again (in other words by my next blog post), I hope to have HTTPS set up. Stay tuned!
+Right now this website does not support HTTPS. In other words, whatever data that's transmitting from the GitHub servers to your browser is unencrypted and completely in plaintext. This isn't ideal, hence the next goal is to get HTTPS up and running. My next post will be in the same fashion as this one, explaining how I got HTTPS set up as a way to educate myself and anyone else interested.
 
-I hope this post was helpful. If you've got any questions or would like to get in touch with me, [feel free to do so](/contact/). 
+I hope this post was helpful! If you've got any questions or would like to get in touch with me, [feel free to do so](/contact/). 
 
 ---
 
