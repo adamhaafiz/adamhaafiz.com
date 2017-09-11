@@ -6,7 +6,7 @@ title:      How This Website Works
 
 ## Success!
 
-The fact that you're reading this now means that I've set up this website correctly. Hooray! However, in the process of getting it set up I found myself blindly following guides without really knowing that I was doing. I figured that writing down how the website works would be a good way to educate myself as well as anyone else who was curious about this sort of thing.
+The fact that you're reading this now means that I've set up this website correctly. Hooray! However, in the process of getting it set up I found myself blindly following guides without really knowing what I was doing. I figured that writing down how the website works would be a good way to educate myself as well as anyone else who was curious about this sort of thing.
 
 ## What You're Reading
 
