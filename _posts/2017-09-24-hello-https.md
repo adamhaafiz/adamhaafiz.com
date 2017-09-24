@@ -1,6 +1,6 @@
 ---
 layout:     post
-summary:    The fact that you're reading this now means that I've set up this website correctly. Hooray!
+summary:    You are now accessing this website securely thanks to HTTPS.
 title:      Hello HTTPS
 ---
 
