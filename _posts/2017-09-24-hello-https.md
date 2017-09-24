@@ -41,6 +41,7 @@ From there Cloudflare can do whatever magic it needs to do. It also means that a
 ### DNS Changes
 
 ![dns-records](/images/dns-records.png){: .centre-image}
+
 [In my previous post]({% link _posts/2017-09-10-how-this-website-works.md %}), I commented about how Namecheap didn't support `ALIAS` records. Luckily, Cloudflare does. However, Cloudflare calls it [CNAME Flattening](https://support.cloudflare.com/hc/en-us/articles/200169056-CNAME-Flattening-RFC-compliant-support-for-CNAME-at-the-root). Since this kind of DNS record is not _officially_ supported, it serves as a reminder that different service providers will have different names for it.
 
 This allowed me to drop the ugly `A` records I had and replace them with 1 flattened `CNAME` record that points the apex domain to `adamhaafiz.github.io` (and of course another `CNAME` record for the `www` subdomain). 
@@ -48,11 +49,13 @@ This allowed me to drop the ugly `A` records I had and replace them with 1 flatt
 ### Turning on SSL
 
 ![crypto](/images/crypto.png){: .centre-image}
+
 The next step was to go into the Crypto tab on the Cloudflare dashboard and turn on Full SSL. This setting tells Cloudflare how it should connect to the origin server. Setting it to Full tells Cloudflare to connect to GitHub Pages using HTTPS and not HTTP.
 
 In the same page I also turned on the setting for "Always use HTTPS". This makes is so that any requests using `http` will be responded with a 301 redirect to the equivalent `https` page. 
 
 ![page-rules](/images/page-rules.png){: .centre-image}
+
 Afterwards I added a page rule so that all requests going to the `www` subdomain be redirected to the `https` root domain. This was done so that all 4 addresses to the website would all redirect to the same one. For instance, all of the following domains: 
 
 - [http://adamhaafiz.com](http://adamhaafiz.com) (handled by previous "Always use HTTPS" setting)
