@@ -87,6 +87,9 @@ This was a recent exercise for us, but it was just as fulfilling as it was when 
 2. Sign it with the relevant deployment keys/certificates.
 3. Deploy it automatically to iTunes Connect and the Google Play Console.
 
+![buddybuild](/images/buddybuild.jpg){: .centre-image}
+*Buddybuild treated us to burritos for breakfast!*
+
 ## Where We Are Today
 Looking back at how things were a year ago versus how things are now, I’m pretty confident in saying that our technical health has improved tremendously. We have saved countless hours by offloading the work of sending out builds and handling deployments to our buddies over at buddybuild.
 
