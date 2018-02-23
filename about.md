@@ -7,7 +7,7 @@ tags: about
 
 ![Adam Haafiz](../images/me.jpg){:width="200px"}
 
-Hey there! My name is **Adam**. I'm a mobile app developer at [Apptivity Lab](https://www.apptivitylab.com), a consulting agency that specialises in iOS and Android applications. At work I'm primarily involved in the development of iOS applications, but I'm able to contribute on the Android side too. 
+Hey there! My name is **Adam**. I'm a senior mobile app developer at [Apptivity Lab](https://www.apptivitylab.com), a consulting agency that specialises in iOS and Android applications. At work I'm primarily involved in the development of iOS applications, but I'm able to contribute on the Android side too. 
 
 Listening to music is an essential part of my workflow, therefore I'm always resisting the urge to airdrum along to my favourite songs. On my way to work, I usually listen to these awesome podcasts:
 
