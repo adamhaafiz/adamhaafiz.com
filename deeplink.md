@@ -1,0 +1,2 @@
+- [URL Scheme](test.peaks.cloud://action/start)
+- [Universal link](https://test.peaks.cloud/action/start)
