@@ -1,3 +1,0 @@
-- [URL Scheme](test.peaks.cloud://action/start)
-- [Universal link](https://test.peaks.cloud/action/start)
-- [302 Redirect to Universal link](https://adamhaafiz.com/peaks-redirect)
